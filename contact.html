@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-color: black;
+      }
+      #mainTitle {
+        width: 100%;
+        height: 100%;
+      }
+      #mainTitle h1 {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .mainText {
+        margin-top: 20px;
+        background-color: white;
+        margin-left: 15%;
+        margin-right: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.8;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      p {
+      text-align: center;
+      font-size: 20px;
+      font-family: "Canto Roman", Arial, sans-serif;
+    }
+      nav {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+      }
+
+      nav ul li {
+        margin-right: 10px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px;
+      }
+
+      nav ul li a:hover {
+        background-color: #555;
+      }
+      form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    img  {
+      width: 50%;
+      display: block;
+      margin: 0 auto; 
+      
+    }
+}
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="mainTitle">
+      <h1 style="font-family: Broadway; font-size: 36px;">
+        Contact Us <br> Hotel California
+              </h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="mainText">
+      <p>
+        Indulge in the captivating charm of our favorite rooms <br> where luxury meets comfort in a picturesque setting.<br />
+        <img src="https://www.brides.com/thmb/pK-Ee58sEdm6AaszrnFQLWlYLus=/fit-in/1500x1000/filters:format(png):fill(transparent):max_bytes(150000):strip_icc():format(webp)/MissionPacificHotel-ed4f4135bcd44b219399f2bf25921105.jpeg" style="width: 75%;" alt="Classic room" />
+      </p>
+    </div>
+    <div class="mainText" style="margin-top: 20px; padding: 10px">
+     <div class="mainText">
+        <form action="#" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <br>
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <br>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">    
+    </div>
+  </body>
+</html>
